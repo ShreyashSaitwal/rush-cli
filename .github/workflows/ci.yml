@@ -70,7 +70,7 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/download-artifact@v3
+      - uses: actions/download-artifact@v4.1.7
       - name: Download JAR dependencies
         run: |
           mkdir libs && cd libs
